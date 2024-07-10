@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <!--image view for displaying user image-->
+        <ImageView
+            android:id="@+id/idIVUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp" />
+
+        <!--text view for displaying first name-->
+        <TextView
+            android:id="@+id/idTVFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVUser"
+            android:layout_toRightOf="@id/idIVUser"
+            android:text="First Name"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <!--text view for displaying last name-->
+        <TextView
+            android:id="@+id/idTVLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVFirstName"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVUser"
+            android:layout_toRightOf="@id/idIVUser"
+            android:text="Last Name"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <!--text view for displaying user email-->
+        <TextView
+            android:id="@+id/idTVEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTVLastName"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/idIVUser"
+            android:layout_toRightOf="@id/idIVUser"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
