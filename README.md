@@ -1,2 +1,2 @@
-# Pagination_in_Android_Java
+# Pagination in Android Java
 Implement Pagination in Android RecyclerView using Volley in Java
